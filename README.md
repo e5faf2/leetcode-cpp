@@ -54,6 +54,8 @@ Actual tests and their parameters are specified in ``CMakeLists.txt`` like this:
 Run your test to check your solution before submit with ``CTest`` from VSCode or manually:
 
     user@host:~/leetcode$ cd ./build/
+    user@host:~/leetcode/build$ cmake ..
+    user@host:~/leetcode/build$ make
     user@host:~/leetcode/build$ ctest
         Test project /home/user/projects/cpp/leetcode/build
             Start 1: Test_0
